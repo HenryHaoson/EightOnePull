@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Button
+            android:id="@+id/lives_ttt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ttt"/>
+
+    <EditText
+            android:id="@+id/lives_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rtmp://104.128.94.191/live/ttt"/>
+    <Button android:id="@+id/lives_enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="进入"/>
+</LinearLayout>
