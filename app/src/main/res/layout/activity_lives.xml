@@ -13,7 +13,7 @@
             android:id="@+id/lives_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="rtmp://104.128.94.191/live/ttt"/>
+            android:text="rtmp://101.132.176.147/live/jiayue?key=henry123"/>
     <Button android:id="@+id/lives_enter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

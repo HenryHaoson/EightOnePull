@@ -16,7 +16,7 @@ class LivesActivity : AppCompatActivity() {
 
     fun initView() {
         findViewById<Button>(R.id.lives_ttt).setOnClickListener {
-            gotoRecord("rtmp://104.128.94.191/live/ttt")
+            gotoRecord("rtmp://101.132.176.147/live/jiayue?key=henry123")
         }
         findViewById<Button>(R.id.lives_enter).setOnClickListener {
             val url = findViewById<EditText>(R.id.lives_url).text

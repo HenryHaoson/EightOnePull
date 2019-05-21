@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         val rtmpDataSourceFactory = RtmpDataSourceFactory()
         // This is the MediaSource representing the media to be played.
         val videoSource = ExtractorMediaSource.Factory(rtmpDataSourceFactory)
-            .createMediaSource(Uri.parse(url.toString()))
+            .createMediaSource(Uri.parse(url))
 
         // Prepare the player with the source.
         player.prepare(videoSource)
